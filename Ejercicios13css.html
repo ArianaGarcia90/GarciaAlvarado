@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>ejercicio 13</title>
+        <style>
+        table{
+        width: 100%;
+        border-color: rgb(41, 68, 68);
+        border-radius: 20%;
+        border-style: outset;
+        border-width: 10px;
+        background-color: rgb(0, 255, 60);
+        color: rgb(0, 0, 0);
+    }
+    tr td{
+        width: 45%;
+    }
+
+            table {
+                border-collapse: collapse;
+                width: 350px;
+                margin: auto;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 5px;
+                text-align: center;
+            }
+            th[colspan="2"] {
+                font-weight: bold;
+            }
+            th[bgcolor="RED"] {
+                background-color: red;
+                color: white;
+            }
+            td[bgcolor="yellow"] {
+                background-color: yellow;
+            }
+        </style>
+    </head>
+    <body style="background-color: aqua;" (202, 23, 154);">
+    
+        <table border="1">: r
+            <tr>
+                <th colspan="2">fila 1 celda 1y2(colspan)</th>
+                <th bgcolor="RED">fila 1 celda 3</th>
+            </tr>
+            <tr>
+                <td>fila 2 celda 1</td>
+                <td>fila 2 celda 2</td>
+                <td rowspan="2" valign="bottom">fila 2 y 3(rowspan)</td>
+            </tr>
+            <tr>
+                <td align="right" bgcolor="yellow">
+                    <font face="arial" size="2">f2 cel 1</font>
+                </td>
+                <td>fila 2 celda 2</td>
+            </tr>
+        </table>
+    
+    </body>
+    </html>
